@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+}
+
+
+Header {
+    margin: 0px 0px 50px 0px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 60px;
+    background-color: #564cac;
+    box-shadow: 1px 1px 10px grey;
+}
+
+Header img {
+    width: 35px;
+    margin-left: 12px;
+    float: left;
+    box-shadow: 1px 1px 10px rgb(151, 150, 150);
+    border-radius: 50px;
+}
+
+Header nav {
+    float: right;
+}
+
+Header nav ul {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+Header nav ul li {
+    margin: 10px;
+    list-style-type: none;
+}
+
+Header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+Header nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 10px white;
+    text-decoration: underline;
+}
+
+h1 {
+    color: #564cac;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+
+.firstSteps {
+    text-align: center;
+}
+
+.generator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#results {
+    width: 0px;
+    /* width: 170px; */
+    transition: 0.5s ease;
+    box-shadow: 1px 1px 15px #564cac;
+}
+
+#downl {
+    /* width: 170px; */
+    transition: 0.5s ease;
+    box-shadow: 1px 1px 15px #564cac;
+}
+
+textarea {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 250px;
+    background-color: #564cac12;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: #564cac;
+    color: white;
+    font-weight: 700;
+    box-shadow: 1px 1px 10px #564cac;
+    cursor: pointer;
+}
+
+span {
+    font-weight: 1000;
+}
+
+.bulk {
+    background-color: white;
+    color: #564cac;
+}
+
+button:hover {
+    background-color: rgb(207, 207, 207);
+    transition: .2s ease;
+    transform: scale(1.01);
+}
+
+button:active {
+    transition: 0.2s ease;
+    transform: scale(0.9);
+}
+
+textarea:active {
+    box-shadow: 1px 1px 15px black;
+    transition: 0.3s ease;
+}
+
+#qrCodeContainer {
+    background-color: red;
+}
